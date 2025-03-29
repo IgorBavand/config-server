@@ -1,0 +1,24 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/igorbavand/config-server-environment.git
+          username: ${GITHUB_USER}
+          password: ${GITHUB_PASSWORD}
+          search-paths: '{application}/{profile}'
+          clone-on-start: true
+          defaultLabel: main
+  output:
+    ansi:
+      enabled: ALWAYS
+
+api-token: ${TOKEN-API}
+
+encrypt:
+  key: ${ENCRYPT_KEY}
