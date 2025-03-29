@@ -3,7 +3,7 @@
 Ce projet démontre la configuration d'un **Spring Cloud Config Server** pour fournir des configurations centralisées à d'autres applications Spring Boot.  
 L'application **`api-test`** consomme ces configurations à partir d'un dépôt Git distant, permettant une gestion dynamique et efficace des environnements **sans avoir besoin de redémarrer l'application**.
 
-[ 🇬🇧 Lire en Anglais](readme-en.md) | [ 🇧🇷 Ler em Português](readme-pt.md)
+[ 🇬🇧 Lire en Anglais](readme.md) | [ 🇧🇷 Ler em Português](readme.pt.md)
 
 ---
 
